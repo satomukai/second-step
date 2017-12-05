@@ -2,11 +2,15 @@
 
 int main(){
 	int i = 0;
-	for(i=0;i<100;i++){
-		printf("%d\n", i);
+	int j = 0;
+	for(i=1;i<10;i++){
+		for(j=0;j<i;j++){
+			printf("%d",i);
+		}
+		printf("\n");
 	}
 
-	printf("by shimabiss\n");
+	printf("byshimabiss\n");
 
 	return 0;
 }
